@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Samochodowy</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=d41d8cd98f00b204e9800998ecf8427e">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&amp;subset=latin-ext&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=37efe7e508357f382d0a5b2b73cd47ee">
+    <link rel="stylesheet" href="https://use.typekit.net/qkj4bpl.css">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-grid.compiled.css?h=b8f2394daccbb9fbfaac11fa046cbfcd">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-reboot.compiled.css?h=992f7f96ea9666144cb6168ffd1837bb">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-utilities.compiled.css?h=c20e4fa42e13d3317978bd343cd5cbc7">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.compiled.css?h=b6b2ff9f1bc314875a5ec36fca62443b">
+    <link rel="stylesheet" href="assets/css/page.compiled.css?h=a6995feb1d4f3a686a696db93a1eeaa4">
+    <link rel="stylesheet" href="assets/css/utilities/utilities.compiled.css?h=2ccf691ecd2eb3c63bc174a6dea3f77a">
+    <link rel="stylesheet" href="assets/css/libs/libs.compiled.css?h=dda1d572cef268e6e6aba30c50241324">
+    <link rel="stylesheet" href="assets/css/overrides/overrides.compiled.css?h=06ebbc70973a6bdf425335ea9bf7a8d7">
+</head>
+
+<body class="bg-black">
+    <div class="bg-white">
+        <header>
+            <div class="shadow-lg position-relative">
+                <div class="text-white bg-black small">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-auto">
+                                <ul class="nav">
+                                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link link-white fw-bold px--10" aria-expanded="false" data-bs-toggle="dropdown" href="#">PL</a>
+                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">PL</a><a class="dropdown-item" href="#">EN</a><a class="dropdown-item" href="#">DE</a></div>
+                                    </li>
+                                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link link-white fw-bold px--10" aria-expanded="false" data-bs-toggle="dropdown" href="#">PLN</a>
+                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">PLN</a><a class="dropdown-item" href="#">EUR</a><a class="dropdown-item" href="#">USD</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <ul class="nav fw-bold opacity-75">
+                                            <li class="nav-item"><a class="nav-link link-white px--10" href="category.html">Sklep</a></li>
+                                            <li class="nav-item"><a class="nav-link link-white px--10" href="content.html">Dlaczego my?</a></li>
+                                            <li class="nav-item"><a class="nav-link link-white px--10" href="content.html">O nas</a></li>
+                                            <li class="nav-item"><a class="nav-link link-white px--10" href="content.html">Kontakt</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-auto">
+                                        <ul class="nav">
+                                            <li class="nav-item"><a class="nav-link link-white px--10" href="#"><i class="far fa-envelope me-2"></i><span>sklep@samochodowy.pl</span></a></li>
+                                            <li class="nav-item"><a class="nav-link link-white px--10" href="#"><i class="fas fa-phone-alt me-2"></i><span>123 456 789</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-white bg-warning py-4">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center justify-content-md-between my-n2">
+                            <div class="col-sm-auto py-2">
+                                <div class="d-flex justify-content-center mb-n2"><a class="d-block" href="index.html"><img class="d-block img-fluid" src="assets/img/logo/logo-samochodowy.svg?h=aef04a12fa66cf9f237242f1415c15e1" style="height: 30px;filter: hue-rotate(0deg) invert(0%) saturate(100%);"></a></div>
+                            </div>
+                            <div class="col-auto col-lg-auto col-xl-4 d-none d-lg-block py-2">
+                                <form>
+                                    <div class="input-group rounded-pill overflow-hidden"><input class="form-control border-0 ps-4 py--10" type="text" placeholder="Znajdź produkt…"><button class="btn btn-black pe-3" type="button"><i class="fas fa-search"></i></button></div>
+                                </form>
+                            </div>
+                            <div class="col-auto col-sm-auto py-2">
+                                <ul class="nav d-flex justify-content-center align-items-center mx--n12">
+                                    <li class="nav-item mx--12"><a class="nav-link p-0 link-black" href="#"><span class="d-flex align-items-center"><span class="d-flex flex-column me--20"><span class="text-end fw-bold text-white">99 999,94 zł</span><small class="text-end text-white">99 999,99 zł netto</small></span><span class="position-relative"><img class="width--45 height--45" src="assets/img/icons/icon-shopping-bag.svg?h=ca9f203eee70a6072a5625773fe225e1" style="height: 40px;filter: invert(100%);"><span class="shadow d-block bg-black position-absolute top-100 start-0 translate-middle ratio rounded-circle w--25 h--25 text-white"><small class="fw-bold">18</small></span></span></span></a></li>
+                                    <li class="nav-item text-center mx--12"><a class="nav-link d-flex align-items-center link-white p-0" href="#"><span class="d-block fw-bold line-height-small">Moje <br>konto</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <nav class="navbar navbar-light navbar-expand fw-bold py-3 py-lg-2">
+                        <div class="container">
+                            <div class="collapse navbar-collapse">
+                                <div class="d-none d-lg-block">
+                                    <ul class="nav text-uppercase mx-n3 fw-bold">
+                                        <li class="nav-item"><a class="nav-link link-primary px-3" href="content.html">Oleje</a></li>
+                                        <li class="nav-item"><a class="nav-link px-3" href="content.html">Filtry</a></li>
+                                        <li class="nav-item"><a class="nav-link px-3" href="content.html">Części</a></li>
+                                        <li class="nav-item"><a class="nav-link px-3" href="content.html">Płyny</a></li>
+                                        <li class="nav-item"><a class="nav-link px-3" href="content.html">Chemia</a></li>
+                                        <li class="nav-item"><a class="nav-link px-3" href="content.html">Kosmetyki</a></li>
+                                        <li class="nav-item"><a class="nav-link px-3" href="content.html">Akcesoria</a></li>
+                                        <li class="nav-item"><a class="nav-link px-3" href="content.html">Narzędzia</a></li>
+                                    </ul>
+                                </div>
+                                <div class="d-block d-lg-none w-100">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-auto">
+                                            <div class="dropdown"><button class="btn btn-lg dropdown-toggle rounded-0 p-0" aria-expanded="false" data-bs-toggle="dropdown" type="button">Kategorie sklepu</button>
+                                                <div class="dropdown-menu"><a class="dropdown-item" href="category.html">Oleje</a><a class="dropdown-item" href="category.html">Filtry</a><a class="dropdown-item" href="category.html">Części</a><a class="dropdown-item" href="category.html">Płyny</a><a class="dropdown-item" href="category.html">Chemia</a><a class="dropdown-item" href="category.html">Kosmetyki</a><a class="dropdown-item" href="category.html">Akcesoria</a><a class="dropdown-item" href="category.html">Narzędzia</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto"><button class="btn btn-lg rounded-0 p-0" type="button"><i class="fas fa-search"></i></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="bg-light py-5">
+                <div class="container">
+                    <div class="row my-n4">
+                        <div class="col-lg-8 col-xxl-9 py-4">
+                            <div class="pb-3 border-bottom mb-4">
+                                <h2 class="mb-0">Części samochodowe</h2>
+                            </div>
+                            <div class="row my-n3">
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/motor-oil.jpeg?h=f38a63570fd33bd629915a85ae790bad"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/467bsbox-zestaw-kluczy-grzechotkowych-i-nasadek-14-7-14-mm.jpeg?h=d7e362854ce9890842484212a5fb7f1e"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/nfqkanemufhgyxzz4y2b.jpeg?h=b9aec0ade6ca7dfbf898df9b2c16aa8f"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/motor-oil.jpeg?h=f38a63570fd33bd629915a85ae790bad"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/467bsbox-zestaw-kluczy-grzechotkowych-i-nasadek-14-7-14-mm.jpeg?h=d7e362854ce9890842484212a5fb7f1e"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/nfqkanemufhgyxzz4y2b.jpeg?h=b9aec0ade6ca7dfbf898df9b2c16aa8f"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/motor-oil.jpeg?h=f38a63570fd33bd629915a85ae790bad"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/467bsbox-zestaw-kluczy-grzechotkowych-i-nasadek-14-7-14-mm.jpeg?h=d7e362854ce9890842484212a5fb7f1e"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/nfqkanemufhgyxzz4y2b.jpeg?h=b9aec0ade6ca7dfbf898df9b2c16aa8f"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/motor-oil.jpeg?h=f38a63570fd33bd629915a85ae790bad"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/467bsbox-zestaw-kluczy-grzechotkowych-i-nasadek-14-7-14-mm.jpeg?h=d7e362854ce9890842484212a5fb7f1e"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-4 py-3">
+                                    <div class="card shadow-sm p-2 border-0 rounded-0">
+                                        <div>
+                                            <div>
+                                                <div class="ratio">
+                                                    <div><img src="assets/img/products/nfqkanemufhgyxzz4y2b.jpeg?h=b9aec0ade6ca7dfbf898df9b2c16aa8f"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column justify-content-between p-3 mt-2">
+                                            <h4 class="card-title fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h4>
+                                            <p class="card-text small mb-3">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                            <div class="row g-0 justify-content-between align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="row g-0 justify-content-start">
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">brutto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-start d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="row g-0 align-items-baseline">
+                                                                <div class="col-auto me-2"><small class="text-nowrap text-start text-muted d-block">netto</small></div>
+                                                                <div class="col-auto me-2"><span class="text-nowrap text-end d-block fw-bold">99 999,99 zł</span></div>
+                                                                <div class="col-auto"><small class="text-nowrap text-end text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-center mt-4"><a class="btn btn-warning d-flex justify-content-center align-items-center px-4 py-2 text-white" role="button" href="product.html"><small class="text-uppercase d-block fw-bold">Dodaj do koszyka</small></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-xxl-3 py-4">
+                            <div class="my-n3">
+                                <div class="py-3">
+                                    <div class="card border-warning border-2">
+                                        <div class="card-header bg-warning border-warning p-3 rounded-0">
+                                            <h5 class="text-white mb-0">Kategorie produktów</h5>
+                                        </div>
+                                        <div class="card-body py-2">
+                                            <div class="overflow-hidden">
+                                                <ul class="list-group m--n1 rounded-0 fw-bold">
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Oleje</span></a></li>
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Filtry</span></a></li>
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Części</span></a></li>
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Płyny</span></a></li>
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Chemia</span></a></li>
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Kosmetyki</span></a></li>
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Akcesoria</span></a></li>
+                                                    <li class="list-group-item px-0"><a class="link-dark text-decoration-none" href="category.html"><span>Narzędzia</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="py-3">
+                                    <div class="card shadow-sm rounded-0 border-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title pb-2 border-bottom mb-3">Bestsellery</h5>
+                                            <div class="row my-n3">
+                                                <div class="col-12 col-md-6 col-lg-12 py-3">
+                                                    <div class="row mx-n2">
+                                                        <div class="col-4 col-sm-3 col-lg-4 px-2">
+                                                            <div class="ratio">
+                                                                <div><img src="assets/img/products/motor-oil.jpeg?h=f38a63570fd33bd629915a85ae790bad"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col px-2">
+                                                            <h5 class="fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h5>
+                                                            <p class="small mb-2">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                                            <div class="row g-0 justify-content-between align-items-center">
+                                                                <div class="col-12 d-flex"><a class="btn d-flex justify-content-center align-items-center rounded-0 p-0" role="button" href="product.html"><small class="d-block fw-bold">Zobacz produkt</small></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-12 py-3">
+                                                    <div class="row mx-n2">
+                                                        <div class="col-4 col-sm-3 col-lg-4 px-2">
+                                                            <div class="ratio">
+                                                                <div><img src="assets/img/products/467bsbox-zestaw-kluczy-grzechotkowych-i-nasadek-14-7-14-mm.jpeg?h=d7e362854ce9890842484212a5fb7f1e"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col px-2">
+                                                            <h5 class="fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h5>
+                                                            <p class="small mb-2">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                                            <div class="row g-0 justify-content-between align-items-center">
+                                                                <div class="col-12 d-flex"><a class="btn d-flex justify-content-center align-items-center rounded-0 p-0" role="button" href="product.html"><small class="d-block fw-bold">Zobacz produkt</small></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-12 py-3">
+                                                    <div class="row mx-n2">
+                                                        <div class="col-4 col-sm-3 col-lg-4 px-2">
+                                                            <div class="ratio">
+                                                                <div><img src="assets/img/products/nfqkanemufhgyxzz4y2b.jpeg?h=b9aec0ade6ca7dfbf898df9b2c16aa8f"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col px-2">
+                                                            <h5 class="fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h5>
+                                                            <p class="small mb-2">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                                            <div class="row g-0 justify-content-between align-items-center">
+                                                                <div class="col-12 d-flex"><a class="btn d-flex justify-content-center align-items-center rounded-0 p-0" role="button" href="product.html"><small class="d-block fw-bold">Zobacz produkt</small></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-12 py-3">
+                                                    <div class="row mx-n2">
+                                                        <div class="col-4 col-sm-3 col-lg-4 px-2">
+                                                            <div class="ratio">
+                                                                <div><img src="assets/img/products/gasnica-samochodowa-proszkowa-gp-1zbc-kzwm-ogniochron-bez-wieszka.jpeg?h=710ddd040ac46a2da0bee9ff1aca83cd"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col px-2">
+                                                            <h5 class="fw-bold"><a class="text-decoration-none link-black" href="product.html">Dolor o lorem</a></h5>
+                                                            <p class="small mb-2">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam…</p>
+                                                            <div class="row g-0 justify-content-between align-items-center">
+                                                                <div class="col-12 d-flex"><a class="btn d-flex justify-content-center align-items-center rounded-0 p-0" role="button" href="product.html"><small class="d-block fw-bold">Zobacz produkt</small></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="py-3">
+                                    <div class="card shadow-sm rounded-0 border-0">
+                                        <div class="card-body p-2">
+                                            <div class="bg--image"><img class="bg--image--background" src="assets/img/content/obi-onyeador-hKJlcEvnY6I-unsplash.jpeg?h=982d63e886ad41ac1564e69039b8f536">
+                                                <div class="d-flex flex-column justify-content-center bg--image--content w-100 h-100 p-4" style="background: linear-gradient(270deg, var(--bs-gray-300) 0%, rgba(233,236,239,0.4) 80%);">
+                                                    <div class="w-100">
+                                                        <div class="row justify-content-end">
+                                                            <div class="col-6 text-end">
+                                                                <h2>Lorem ipsum<br>dolor elit</h2>
+                                                                <p class="mb-0 fw-normal">Dolor o lorem</p>
+                                                                <div class="mt-4"><a class="btn btn-warning btn-sm text-uppercase shadow-sm px-3 text-white" role="button" href="category.html">Więcej</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top py-3">
+                <div class="container">
+                    <ol class="breadcrumb justify-content-center mb-0 opacity-50">
+                        <li class="breadcrumb-item"><a class="text-decoration-none link-black" href="index.html"><span>Strona główna</span></a></li>
+                        <li class="breadcrumb-item"><a class="text-decoration-none link-black" href="category.html"><span>Sklep</span></a></li>
+                        <li class="breadcrumb-item"><a class="text-decoration-none link-black" href="product.html"><span>Części</span></a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="bg-warning py-5 text-white">
+                <div class="container">
+                    <div class="row align-items-center my-n2">
+                        <div class="col-lg-6 py-2">
+                            <h1>Zapisz się do newslettera</h1>
+                            <p class="lead mb-0 fw-normal">Otrzymuj powiadomienia o najnowszych produktach i promocjach</p>
+                        </div>
+                        <div class="col-lg-6 py-2">
+                            <form>
+                                <div class="input-group input-group-lg rounded-pill overflow-hidden"><input class="form-control border-0 ps-4 py--10" type="text" placeholder="Wpisz swój e-mail"><button class="btn text-uppercase btn-black pe-4" type="button">Subskrybuj</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="text-white py--65 bg-black">
+                <div class="container">
+                    <div>
+                        <div class="row align-items-lg-center my-n3">
+                            <div class="col py-3">
+                                <div class="row my-n2">
+                                    <div class="col-12 col-lg-auto py-2">
+                                        <div class="d-flex justify-content-center justify-content-lg-start mb-3"><img src="assets/img/logo/logo-samochodowy.svg?h=aef04a12fa66cf9f237242f1415c15e1" style="height: 28px;filter: grayscale(100%) invert(100%);"></div>
+                                        <p class="lead text-center text-lg-start fw-normal mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac purus quam. Aliquam vel mi ex. Proin sollicitudin massa quis hendrerit semper. Nulla rutrum quis nisl sit amet luctus. Sed non efficitur erat.<br></p>
+                                        <div class="d-flex justify-content-center justify-content-lg-start">
+                                            <div class="btn-group mx-n2" role="group"><a class="btn btn-warning btn-lg p-0 mx-2 rounded-circle" role="button" href="#"><span class="ratio w--35 h--35 p-0"><span><i class="fab fa-linkedin-in"></i></span></span></a><a class="btn btn-warning btn-lg p-0 mx-2 rounded-circle" role="button" href="#"><span class="ratio w--35 width--35 p-0"><span><i class="fab fa-instagram"></i></span></span></a><a class="btn btn-warning btn-lg p-0 mx-2 rounded-circle" role="button" href="#"><span class="ratio w--35 h--35 p-0"><span><i class="fab fa-facebook-f"></i></span></span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-auto col-xxl-auto py-3">
+                                <div class="row justify-content-center justify-content-lg-end my-n2 mx-sm-n4">
+                                    <div class="col-sm-4 col-md-3 col-lg-auto py-2 px-sm-4">
+                                        <h3 class="text-center text-lg-end text-warning h5">Sklep</h3>
+                                        <ul class="list-unstyled text-nowrap text-center text-lg-end mb-0">
+                                            <li><a class="text-decoration-none link-white" href="category.html">Produkty</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Dlaczego my?</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Serwis</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Kontakt</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-md-3 col-lg-auto py-2 px-sm-4">
+                                        <h3 class="text-center text-lg-end text-warning h5">Zamówienia</h3>
+                                        <ul class="list-unstyled text-nowrap text-center text-lg-end mb-0">
+                                            <li><a class="text-decoration-none link-white" href="content.html">Regulamin sklepu</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Dostawa</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Płatność</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Gwarancja i zwroty</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-md-3 col-lg-auto py-2 px-sm-4">
+                                        <h3 class="text-center text-lg-end text-warning h5">Moje konto</h3>
+                                        <ul class="list-unstyled text-nowrap text-center text-lg-end mb-0">
+                                            <li><a class="text-decoration-none link-white" href="content.html">Moje konto</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Koszyk</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Zamówienia</a></li>
+                                            <li><a class="text-decoration-none link-white" href="content.html">Wyloguj się</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <div class="row justify-content-center align-items-center justify-content-sm-between my-n2">
+                            <div class="col-auto order-first order-sm-last py-2">
+                                <ul class="list-inline mb-0 opacity-50 mx-n2">
+                                    <li class="list-inline-item mx-2"><a class="link-dark text-decoration-none link-white" href="content.html">Polityka cookies</a></li>
+                                    <li class="list-inline-item mx-2"><a class="link-dark text-decoration-none link-white" href="content.html">Regulamin</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-auto order-last order-sm-first py-2">
+                                <p class="mb-0 opacity-50">Projekt i realizacja: <strong>KDMC</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
+    <script src="assets/js/utilities/svg.js?h=d9ea285243bbaa184c8b082f54b30ff4"></script>
+    <script src="assets/js/utilities/scroll.js?h=6b45ee3f322378dc3faf859cb456034a"></script>
+    <script src="assets/js/libs/jquery.fancybox.js?h=b63c7cca1b5e4bd57bd854c444b895c9"></script>
+    <script src="assets/js/libs/flickity.pkgd.min.js?h=8625a9d2a4f797e756dbd299c2d74fc2"></script>
+    <script src="assets/js/libs/masonry.pkgd.js?h=c39480835cf00844e6407f24d8aaba2e"></script>
+    <script src="assets/js/libs/triggers/masonry.js?h=eba9bf4e2d9c7c9794b7bf1e788e5932"></script>
+    <script src="assets/js/libs/triggers/flickity.js?h=606e2569aec986da9cad24c5f396cefa"></script>
+    <script src="assets/js/libs/triggers/tinymce.js?h=06ba4c339b5221ff3f20ef646d1d41c0"></script>
+</body>
+
+</html>
