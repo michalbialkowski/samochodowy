@@ -39,10 +39,10 @@
 }
 
 .link-warning {
-  color: #00A3E0;
+  color: #FEBC26;
 }
 .link-warning:hover, .link-warning:focus {
-  color: #33b5e6;
+  color: #fec951;
 }
 
 .link-danger {
@@ -487,7 +487,7 @@
 }
 
 .border-warning {
-  border-color: #00A3E0 !important;
+  border-color: #FEBC26 !important;
 }
 
 .border-danger {
